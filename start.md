@@ -6,25 +6,27 @@ cd modeldata
 ```bash
 npm run serve
 ```
-
+```bash
+npm run dev
+```
 
 # 😎 常用git命令
 
 ###
 ```bash
-git add ./.idea ./out ./src GIT.md
+git add ./modeldata ./backskill modeldata.py start.md
 ```
 ###
 ```bash
-git commit -m "动态规划啊啊啊"
+git commit -m "第一次提交"
 ```
 ###
 ```bash
-git push origin master
+git push origin main
 ```
 ###
 ```bash 
-git pull origin master
+git pull origin main
 ```
 ###
 ```sh
