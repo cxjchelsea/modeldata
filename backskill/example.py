@@ -9,7 +9,7 @@ import ctypes
 
 dll_path = "./to test/Gap_Oil_Film_Factor.dll"
 model = ctypes.CDLL(dll_path)
-model.Gap_Oil_Film_Factor.argtypes = [ctypes.c_float, ctypes.c_float, ctypes.c_float, ctypes.c_float, ctypes.c_float]#, ctypes.c_float, ctypes.c_float, ctypes.c_float
+model.Gap_Oil_Film_Factor.argtypes = [ctypes.c_float, ctypes.c_int, ctypes.c_float, ctypes.c_float, ctypes.c_float]#, ctypes.c_float, ctypes.c_float, ctypes.c_float
 model.Gap_Oil_Film_Factor.restype = ctypes.c_float
 h0=800
 h1=7
